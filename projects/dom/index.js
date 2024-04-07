@@ -1,7 +1,5 @@
 /* ДЗ 4 - работа с DOM */
 
-import { text } from "stream/consumers";
-
 /*
  Задание 1:
 
