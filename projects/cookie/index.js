@@ -35,14 +35,19 @@ import './cookie.html';
    homeworkContainer.appendChild(newDiv);
  */
 const homeworkContainer = document.querySelector('#app');
+
 // текстовое поле для фильтрации cookie
 const filterNameInput = homeworkContainer.querySelector('#filter-name-input');
+
 // текстовое поле с именем cookie
 const addNameInput = homeworkContainer.querySelector('#add-name-input');
+
 // текстовое поле со значением cookie
 const addValueInput = homeworkContainer.querySelector('#add-value-input');
+
 // кнопка "добавить cookie"
 const addButton = homeworkContainer.querySelector('#add-button');
+
 // таблица со списком cookie
 const listTable = homeworkContainer.querySelector('#list-table tbody');
 
