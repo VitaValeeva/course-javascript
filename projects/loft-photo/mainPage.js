@@ -5,7 +5,7 @@ export default {
   async getNextPhoto() {
     const { friend, id, url } = await model.getNextPhoto();
     this.setFriendAndPhoto(friend, id, url);
-  },
+  }, 
 
   setFriendAndPhoto(friend, id, url) {
     const photoComp = document.querySelector('.component-photo');

@@ -3,12 +3,9 @@
 // // eslint-disable-next-line no-unused-vars
 // import friendsDB from './friends.json';
 
-import { rejects } from "assert";
-import { resolve } from "path";
-
 const PERM_FRIENDS = 2;
 const PERM_PHOTOS = 4;
-const APP_ID = 5350105;
+const APP_ID = 51904997;
 
 export default {
   getRandomElement(array) {
@@ -54,7 +51,7 @@ export default {
   login() {
     return new Promise((resolve, reject) => {
       VK.init({
-        apiID: APP_ID,
+        apiId: APP_ID,        
       });
 
       VK.Auth.login((response) => {
