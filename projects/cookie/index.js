@@ -23,7 +23,8 @@
  Запрещено использовать сторонние библиотеки. Разрешено пользоваться только тем, что встроено в браузер
  */
 
-import { doc } from 'prettier';
+// 
+
 import './cookie.html';
 
 /*
@@ -134,6 +135,7 @@ function updateTable() {
 
   if (total) {
     listTable.parentNode.classList.remove('hidden');
+    listTable.append(fragment)
   } else {
     listTable.parentNode.classList.add('hidden');
   }
