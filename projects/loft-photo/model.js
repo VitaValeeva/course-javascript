@@ -3,7 +3,7 @@
 // // eslint-disable-next-line no-unused-vars
 // import friendsDB from './friends.json';
 
-import { resolve } from "path";
+// import { resolve } from "path";
 
 const PERM_FRIENDS = 2;
 const PERM_PHOTOS = 4;
