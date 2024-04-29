@@ -62,7 +62,13 @@ http
     const vkUser = await getMe(token);
     const body = await readBody(req);
     const method = parsed.searchParams.get('method');
-    const responseData = await methods[method]?.(req, res, parsed, vkUser, body);
+    const responseData = await methods[parsed.searchParams.get('method')]?.(
+      req, 
+      res, 
+      parsed, 
+      vkUser, 
+      body
+    );
 
     res.end(JSON.stringify(responseData ?? null));
   })
