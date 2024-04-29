@@ -7,7 +7,7 @@
 
 const PERM_FRIENDS = 2;
 const PERM_PHOTOS = 4;
-const APP_ID = 51904997;
+const APP_ID = 51908066;
 
 export default {
   getRandomElement(array) {
