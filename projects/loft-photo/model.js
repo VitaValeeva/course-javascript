@@ -1,4 +1,4 @@
-import HtmlWebpackPlugin from "html-webpack-plugin";
+// import HtmlWebpackPlugin from "html-webpack-plugin";
 
 const PERM_FRIENDS = 2;
 const PERM_PHOTOS = 4;
